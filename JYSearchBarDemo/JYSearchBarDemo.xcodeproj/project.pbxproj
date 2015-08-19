@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC21F701B843A370043E9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC21F6F1B843A370043E9CA /* main.m */; };
+		FEC21F731B843A370043E9CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC21F721B843A370043E9CA /* AppDelegate.m */; };
+		FEC21F761B843A370043E9CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC21F751B843A370043E9CA /* ViewController.m */; };
+		FEC21F791B843A370043E9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC21F771B843A370043E9CA /* Main.storyboard */; };
+		FEC21F7B1B843A370043E9CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC21F7A1B843A370043E9CA /* Images.xcassets */; };
+		FEC21F7E1B843A370043E9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC21F7C1B843A370043E9CA /* LaunchScreen.xib */; };
+		FEC21F8A1B843A370043E9CA /* JYSearchBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC21F891B843A370043E9CA /* JYSearchBarDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC21F841B843A370043E9CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC21F621B843A370043E9CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC21F691B843A370043E9CA;
+			remoteInfo = JYSearchBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC21F6A1B843A370043E9CA /* JYSearchBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYSearchBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC21F6E1B843A370043E9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC21F6F1B843A370043E9CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEC21F711B843A370043E9CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEC21F721B843A370043E9CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEC21F741B843A370043E9CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEC21F751B843A370043E9CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEC21F781B843A370043E9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEC21F7A1B843A370043E9CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEC21F7D1B843A370043E9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEC21F831B843A370043E9CA /* JYSearchBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYSearchBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC21F881B843A370043E9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC21F891B843A370043E9CA /* JYSearchBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYSearchBarDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC21F671B843A370043E9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC21F801B843A370043E9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC21F611B843A370043E9CA = {
+			isa = PBXGroup;
+			children = (
+				FEC21F6C1B843A370043E9CA /* JYSearchBarDemo */,
+				FEC21F861B843A370043E9CA /* JYSearchBarDemoTests */,
+				FEC21F6B1B843A370043E9CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC21F6B1B843A370043E9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC21F6A1B843A370043E9CA /* JYSearchBarDemo.app */,
+				FEC21F831B843A370043E9CA /* JYSearchBarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC21F6C1B843A370043E9CA /* JYSearchBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEC21F711B843A370043E9CA /* AppDelegate.h */,
+				FEC21F721B843A370043E9CA /* AppDelegate.m */,
+				FEC21F741B843A370043E9CA /* ViewController.h */,
+				FEC21F751B843A370043E9CA /* ViewController.m */,
+				FEC21F771B843A370043E9CA /* Main.storyboard */,
+				FEC21F7A1B843A370043E9CA /* Images.xcassets */,
+				FEC21F7C1B843A370043E9CA /* LaunchScreen.xib */,
+				FEC21F6D1B843A370043E9CA /* Supporting Files */,
+			);
+			path = JYSearchBarDemo;
+			sourceTree = "<group>";
+		};
+		FEC21F6D1B843A370043E9CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC21F6E1B843A370043E9CA /* Info.plist */,
+				FEC21F6F1B843A370043E9CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEC21F861B843A370043E9CA /* JYSearchBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC21F891B843A370043E9CA /* JYSearchBarDemoTests.m */,
+				FEC21F871B843A370043E9CA /* Supporting Files */,
+			);
+			path = JYSearchBarDemoTests;
+			sourceTree = "<group>";
+		};
+		FEC21F871B843A370043E9CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC21F881B843A370043E9CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC21F691B843A370043E9CA /* JYSearchBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC21F8D1B843A370043E9CA /* Build configuration list for PBXNativeTarget "JYSearchBarDemo" */;
+			buildPhases = (
+				FEC21F661B843A370043E9CA /* Sources */,
+				FEC21F671B843A370043E9CA /* Frameworks */,
+				FEC21F681B843A370043E9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYSearchBarDemo;
+			productName = JYSearchBarDemo;
+			productReference = FEC21F6A1B843A370043E9CA /* JYSearchBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC21F821B843A370043E9CA /* JYSearchBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC21F901B843A370043E9CA /* Build configuration list for PBXNativeTarget "JYSearchBarDemoTests" */;
+			buildPhases = (
+				FEC21F7F1B843A370043E9CA /* Sources */,
+				FEC21F801B843A370043E9CA /* Frameworks */,
+				FEC21F811B843A370043E9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC21F851B843A370043E9CA /* PBXTargetDependency */,
+			);
+			name = JYSearchBarDemoTests;
+			productName = JYSearchBarDemoTests;
+			productReference = FEC21F831B843A370043E9CA /* JYSearchBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC21F621B843A370043E9CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "方";
+				TargetAttributes = {
+					FEC21F691B843A370043E9CA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FEC21F821B843A370043E9CA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FEC21F691B843A370043E9CA;
+					};
+				};
+			};
+			buildConfigurationList = FEC21F651B843A370043E9CA /* Build configuration list for PBXProject "JYSearchBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC21F611B843A370043E9CA;
+			productRefGroup = FEC21F6B1B843A370043E9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC21F691B843A370043E9CA /* JYSearchBarDemo */,
+				FEC21F821B843A370043E9CA /* JYSearchBarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC21F681B843A370043E9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC21F791B843A370043E9CA /* Main.storyboard in Resources */,
+				FEC21F7E1B843A370043E9CA /* LaunchScreen.xib in Resources */,
+				FEC21F7B1B843A370043E9CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC21F811B843A370043E9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC21F661B843A370043E9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC21F761B843A370043E9CA /* ViewController.m in Sources */,
+				FEC21F731B843A370043E9CA /* AppDelegate.m in Sources */,
+				FEC21F701B843A370043E9CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC21F7F1B843A370043E9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC21F8A1B843A370043E9CA /* JYSearchBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC21F851B843A370043E9CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC21F691B843A370043E9CA /* JYSearchBarDemo */;
+			targetProxy = FEC21F841B843A370043E9CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEC21F771B843A370043E9CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC21F781B843A370043E9CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEC21F7C1B843A370043E9CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC21F7D1B843A370043E9CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC21F8B1B843A370043E9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEC21F8C1B843A370043E9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC21F8E1B843A370043E9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYSearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEC21F8F1B843A370043E9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYSearchBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEC21F911B843A370043E9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYSearchBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYSearchBarDemo.app/JYSearchBarDemo";
+			};
+			name = Debug;
+		};
+		FEC21F921B843A370043E9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYSearchBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYSearchBarDemo.app/JYSearchBarDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC21F651B843A370043E9CA /* Build configuration list for PBXProject "JYSearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC21F8B1B843A370043E9CA /* Debug */,
+				FEC21F8C1B843A370043E9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC21F8D1B843A370043E9CA /* Build configuration list for PBXNativeTarget "JYSearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC21F8E1B843A370043E9CA /* Debug */,
+				FEC21F8F1B843A370043E9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEC21F901B843A370043E9CA /* Build configuration list for PBXNativeTarget "JYSearchBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC21F911B843A370043E9CA /* Debug */,
+				FEC21F921B843A370043E9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC21F621B843A370043E9CA /* Project object */;
+}
